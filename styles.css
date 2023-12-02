@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background: url('./images/image3.png') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Your Chosen Font', sans-serif;
+}
+
+.content {
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ok {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    font-size: 100px;
+    color:rgb(111, 255, 248)
+}
+
+.twoh {
+    font-size: 50px;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(111, 255, 248)
+}
+
+/* Add your existing styles */
+
+.container {
+    max-width: 900px; /* Adjust the maximum width of the container */
+}
+
+h2 {
+    color: rgb(25, 182, 230);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width of each feature column */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    margin-bottom: 15px; /* Adjust spacing between image and content */
+}
+
+h3 {
+    color: rgb(60, 157, 152);
+}
+
+p {
+    color: #666;
+}
+
+
+/* Add your existing styles */
+
+#certificateCarousel {
+    max-width: 800px; /* Adjust the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-inner {
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio of images */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Add background color to caption */
+    padding: 10px; /* Adjust padding for caption */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+.carousel-caption h5 {
+    color: #fff; /* Set text color to white */
+}
+
+
+/* Your existing styles */
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background color */
+}
+
+footer a {
+    color: #fff; /* White color for links */
+}
+
+footer a:hover {
+    color: #007bff; /* Blue color for links on hover */
+}
+
+/* Adjust spacing within the footer */
+footer div {
+    padding: 10px;
+}
+
+/* Center the copyright text */
+footer p {
+    text-align: center;
+}
+
+/* Social media icons size and spacing */
+footer .bi {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Add your existing styles */
+
+.social-icon {
+    max-width: 100px; /* Adjust the maximum width of social media icons */
+    margin: 10px; /* Adjust spacing between icons */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Add scale effect on hover */
+}
+
+/* Add your existing styles */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px; /* Adjust the font size */
+}
+
+/* Your existing styles */
+
+/* Gradient Background */
+
+/* Hover Animation for Heading */
+.ok:hover,
+.twoh:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Particle Animation for Footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Your existing styles */
+
+/* Social Media Icons Hover Animation */
+.social-icon:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Particle Animation Styles (You can customize as needed) */
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Add your existing styles */
+
+/* Your existing styles */
+
+/* Anime Typing Animation */
+@keyframes animeTyping {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Coding Typing Animation */
+@keyframes codingTyping {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Featurette Animation */
+@keyframes featuretteFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Applying animations to elements */
+
+/* Anime Typing Animation */
+.col-lg-6.mb-4 img[src$="anime-typing.gif"] {
+    animation: animeTyping 1s ease-out;
+}
+
+/* Coding Typing Animation */
+.col-lg-6.mb-4 img[src$="coding-typing.gif"] {
+    animation: codingTyping 1s ease-out;
+}
+
+/* Featurette Animation */
+.row.featurette {
+    animation: featuretteFadeIn 1s ease-out;
+}
+
+/* Your existing styles */
+
